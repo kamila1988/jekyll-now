@@ -34,6 +34,31 @@
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
           
           <div class="site-info">
+<div id="myElement"></div>
+<script type="text/javascript" src="javascript-flickr-badge.min.js"></script>
+<script type="text/javascript">
+  jsFlickrBadge(document.getElementById('myElement'), {
+      // your Flickr ID (find it here)
+      flickrId: '130116088@N05',
+      // feed type. user, group, contacts, etc.
+      feed: 'user',
+      // optional comma-delimited tags to filter by, only used with 'user' feed
+      tags: 'badge,awesome',
+      // number of rows to display
+      rows: 3,
+      // number of columns to display
+      columns: 10,
+      // size of each thumbnail (any bigger than 75 will cause pixelization)
+      size: 75,
+      // animation to use.
+      // one of: vscroll, random, vscroll, shuffle, zoom, scroll, flipX, flipY
+      animation: 'vscroll',
+      // seconds each animation takes
+      animationSpeed: 1,
+      // seconds between each animation
+      animationPause: 2
+    });
+</script>          
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
