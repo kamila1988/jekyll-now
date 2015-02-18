@@ -1,6 +1,8 @@
 ---
 ---
 
+
+
 //
 // IMPORTS
 //
@@ -12,6 +14,30 @@
 /**************/
 /* BASE RULES */
 /**************/
+
+
+.cp_widget_ca6be387-0ff2-4935-84be-ffb856020ac9 {
+    display:inline-block;   
+    position:relative;
+ 
+}
+.cp_widget_ca6be387-0ff2-4935-84be-ffb856020ac9 span {
+    display:inline-block;
+    position:absolute;
+    top:30px;   
+    left:0px;
+     
+    /* Оформление текста */
+    color:#FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px; 
+     
+    /* Фон */
+    background-color:rgba(0,0,0,.4);
+    padding:10px 30px;
+}
+
+
 
 html {
   font-size: 100%;
