@@ -15,15 +15,19 @@
 /* BASE RULES */
 /**************/
 
-
-.block1 { 
-    width: 500px; 
+.block1 {
+    width: 500px;
     background: rgba(0,0,0,.4);
     padding: 5px;
-    padding-right: 20px; 
-    border: solid 1px black; 
+    padding-right: 20px;
+    border: solid 1px black;
     float: left;
-    position:absolute; left:50px; top:200px;
+    position: absolute;
+    left:50px; top:200px;
+   }
+
+   p style {
+     margin: left;
    }
 
 
@@ -254,6 +258,21 @@ nav {
 //
 // .main
 //
+
+
+.jumbotron {
+  background-image:url('/images/photos/longbeach.jpg/');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+
+
 
 .posts > .post {
   padding-bottom: 2em;
