@@ -11,31 +11,30 @@
 }
 
 .jumbotron {
-  background-image:url('/images/photos/longbeach.jpg/');
-  height: 500px;
+  background-image:url('https://pp.vk.me/c622921/v622921858/262a9/ZNhXYLgF9iY.jpg');
+  height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .jumbotron .container {
   position: relative;
-  top:100px;
+  top:50px;
 }
 
 .jumbotron h1 {
-  color: #fff;
+  color: black;
   font-size: 48px;
   font-family: 'Shift', sans-serif;
-  font-weight: bold;
 }
 
 .jumbotron p {
   font-size: 20px;
-  color: #fff;
+  color:black;
 }
 
 .learn-more {
-  background-color: #f7f7f7;
+  background-color:#fff;;
 }
 
 .learn-more h3 {
@@ -62,11 +61,14 @@
 
 
 .row .thumbnail {
-    padding-top:20px;
-    width:330px;
+    padding-top:10px;
+    width:320px;
     padding-left:20px;
-    height:180px;
+    height:210px;
   }
+
+
+}
 .thumbnail. h5 {
   color: #fff;
   font-size: 48px;
