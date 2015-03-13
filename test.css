@@ -18,13 +18,13 @@
 }
 
 .jumbotron .container {
-  position: relative;
-  top:50px;
+  position: absolute;
+  top:60px;
 }
 
 .jumbotron h1 {
   color: black;
-  font-size: 48px;
+  font-size: 45px;
   font-family: 'Shift', sans-serif;
 }
 
@@ -62,9 +62,9 @@
 
 .row .thumbnail {
     padding-top:10px;
-    width:320px;
-    padding-left:20px;
-    height:210px;
+    width:300px;
+    padding-left:10px;
+    height:175px;
   }
 
 
@@ -74,4 +74,16 @@
   font-size: 48px;
   font-family: 'Shift', sans-serif;
   font-weight: bold;
+  }
+
+  .nav a.menu-label {
+  font-size: 20px;
+  font-family: 'Source Sans Pro';
+  text-shadow: 0 0 15px rgba(0,0,0, 0.95);
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 60px;
+  left: 25%;
+  width: 50%;
   }
