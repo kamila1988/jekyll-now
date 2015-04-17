@@ -26,6 +26,17 @@
   width: 1000px;
   padding: 0;
   background: url("http://stroymir53.ru/wp-content/uploads/2011/12/stroymir.jpg") no-repeat bottom;
+#menu li a {
+  display: block;
+  padding-left: 12px;
+  padding-right: 12px;
+  line-height: 32px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fefefe;
+  text-decoration: none;
+  font-family: Arial, Century gothic, 'Lucida Grande', Verdana, Arial, Sans-Serif;
+}
 ul {
   margin:0;
   padding:0;
