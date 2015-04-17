@@ -8,3 +8,25 @@
   border-left:1px solid #020202;
   border-right:1px solid #020202;
 }
+#category {
+  float:left;
+  width:1000px;
+  height:30px;
+  backgriond:#000000 url(images/categoryright.gif) repeat-x;
+  border-top:1px solid #020202;
+  border-bottom:1px solid #020202;
+}
+#header {
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: Century gothic, Verdana;
+  margin: 0px auto;
+  height: 290px;
+  width: 1000px;
+  padding: 0;
+  background: url("http://stroymir53.ru/wp-content/uploads/2011/12/stroymir.jpg") no-repeat bottom;
+ul {
+  margin:0;
+  padding:0;
+}
