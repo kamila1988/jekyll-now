@@ -26,7 +26,7 @@
   width: 1000px;
   padding: 0;
   background: url("http://stroymir53.ru/wp-content/uploads/2011/12/stroymir.jpg") no-repeat bottom;
-#menu li a {
+#menu li {
   display: block;
   padding-left: 12px;
   padding-right: 12px;
