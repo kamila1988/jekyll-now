@@ -2,6 +2,7 @@
 layout: main_page
 ---
 <div id="out"></div>
+<script src="https://code.jquery.com/jquery-2.1.3.js"></script>
 <script>
   //alert("skldjf;lsajfdlaksjfdlkj");
   var a = 3;
@@ -16,11 +17,149 @@ layout: main_page
   var d = func(a, c);
   //alert(d);
 
-  var name = prompt("What is your name?");
+  //var name = prompt("What is your name?");
   var res = "";
   for (var i = 0; i < 100; i++) {
     res = res+" "+name;
   }
   document.getElementById("out").innerText = res;
 
-</script>
+  //n = n*(n-1)*(n-2)*....*2*1
+  //3! = 3*2*1 = 6
+  //5! = 5*4*3*2*1 = 120
+
+  function fact(n) {
+    var r = 1;
+    while (n>=1) {
+      r = r*n;
+      n=n-1;
+    }
+    return r;
+  }
+
+  //var n = prompt("Enter number");
+  //var r = fact(n)+fact(4);
+  //alert("Factorial:"+r);
+
+  var i = 0;
+  var text = "";
+  while (i < 256) {
+    text += "<div style='background-color: rgb("+(256-i)+", 100, "+i+")'>hi</div>";
+    i=i+20;
+  }
+  //
+  //document.getElementById("out").innerHTML = text;
+
+  $("#out").html(text);
+
+  //r = 1; n = 5; ---> r = 5 ; n = 4;
+  // r = 5 ; n = 4; ---> r=20; n=3;
+  //r=20; n=3;     r=60; n=2;
+  //r=60; n=2;     r=120; n=1;
+  //r=120; n=1;    r=120; n=0;
+
+
+
+  var d=1;
+  while (d==4) {
+    alert(d);
+    d=d+1;
+  }
+
+  function myMouse() {
+    alert("hi!");
+  }
+
+  $("#out").click(myMouse);
+
+  var p = function(p1, p2) {
+    var r = ! (p1 && p2);
+    document.write("<p>p1="+p1+" p2="+p2+" r="+r+"</p>");
+  }
+
+  p(false, true);
+  p(true, true);
+  p(true, false);
+  p(false, false);
+
+  var discount = function(mon, price, discard) {
+    var r;
+    if (mon==1 && price>=100) {
+      r=15;
+    } else {
+      r=0;
+    }
+    if (r<=discard) {
+      r = discard;
+    }
+    return r;
+  }
+
+  var printDiscount = function(mon, price, discard) {
+    var d = discount(mon, price, discard);
+    document.write("<p>mon="+mon+" price="+price+" discard="+discard+" discount="+d+"</p>");
+  }
+
+  printDiscount(1, 150, 10);
+  printDiscount(2, 150, 15);
+  printDiscount(1, 30, 25);
+
+  var calcPrice = function(t1, t2) {
+    var t;
+    if (t1>t2) {
+      t=t1+t2/2;
+    }
+    else {
+      t=t1/2+t2;
+    }
+    document.write("<p>"+"t="+t+" t1="+t1+" t2="+t2+" </p>");
+    return t;
+  }
+
+  calcPrice(10, 25); //30
+  calcPrice(40, 20); //50
+  calcPrice(40, 40); //60
+
+// для каждого параметра не равного 0 увеличить занчение с на еденицу
+
+var goodsCount = function(t1, t2, t3, t4) {
+  var c = 0;
+  if (t1!=0) {
+    c=c+1;
+  }
+  if (t2!=0) {
+    c=c+1;
+  }
+  if (t3!=0) {
+    c=c+1;
+  }
+  if (t4!=0) {
+    c=c+1;
+  }
+  return c;
+}
+
+var calcPrice1 = function(t1, t2, t3, t4) {
+
+  var t;
+  var r;
+
+
+}
+
+calcPrice1(0, 10, 0, 15) // 25 2
+calcPrice1(10, 20, 30, 0) // 48 3
+goodsCount ()
+
+//var scores=[20, 20, 30, 10, 50];
+//var solution2= scores[4];
+//alert("Solution produced" +solution2+ "bubbles");
+
+
+var clothes=["t-shirt", "trousers", "skirt", "jacket", "dress"];
+clothes[2]="red skirt";
+var type2 = clothes[2];
+alert("Your favorite type of clothe is " +type2);
+document.write(clothes);
+
+  </script>
