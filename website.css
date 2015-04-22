@@ -1,44 +1,110 @@
-
-#rap {
-  width:1000px
-  margin:0px auto;
-  background:;
-  text-align:left;
-  padding:0px;
-  border-left:1px solid #020202;
-  border-right:1px solid #020202;
+body {
+text-align: center;
+font: 76% Arial,Verdana,sans-serif;
+line-height: 1;
+padding-bottom: 20px;
+background: #ebebeb url (images/photos/body-bg.png) repeat-x;
+border-top: 5px solid #67920D;
 }
-#category {
-  float:left;
-  width:1000px;
-  height:30px;
-  backgriond:#000000 url(images/categoryright.gif) repeat-x;
-  border-top:1px solid #020202;
-  border-bottom:1px solid #020202;
+#wrapper {
+width: 960px;
+margin: 0 auto;
+padding: 0 10px;
+text-align: left;
+background: url(images/photos/wrapper-bg.png) 0 195px no-repeat;
 }
 #header {
-  font-size: 32px;
-  font-weight: bold;
-  text-decoration: none;
-  font-family: Century gothic, Verdana;
-  margin: 0px auto;
-  height: 290px;
-  width: 1000px;
-  padding: 0;
-  background: url("http://stroymir53.ru/wp-content/uploads/2011/12/stroymir.jpg") no-repeat bottom;
+height: 130px;
+position: relative;
+padding-left: 10px;
+background: #485558 url(/images/photos/header-bg.png);
+border-bottom: 3px solid #67920D;
 }
-#menu li {
-  display: block;
-  padding-left: 12px;
-  padding-right: 12px;
-  line-height: 32px;
-  font-size: 14px;
-  font-weight: bold;
-  color: #fefefe;
-  text-decoration: none;
-  font-family: Arial, Century gothic, 'Lucida Grande', Verdana, Arial, Sans-Serif;
+p.tagline {
+float: left;
+clear: both;
+margin-left: 1px;
+font-size: .9em;
+font-weight: bold;
+color: #fff;
+text-transform: uppercase;
 }
-ul {
-  margin:0;
-  padding:0;
+#header ul li.current {
+background: #67920D;
+border-color: #739e19;
 }
+#header ul li {
+  float: left;
+  margin-left: 4px;
+  text-transform: uppercase;
+  background: #1B3C52;
+  border-width: 1px 1px 0 1px;
+  border-color: #1c3e54;
+  border-style: solid;
+}
+#header ul li.current .navi-description {
+  color:#fff;
+}
+.navi-description {
+font-size: .7em;
+color: #eee;
+display: block;
+text-transform: none;
+padding-top: 1px;
+}
+#searchbox {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 400px;
+}
+#searchbox form#search input#searchSubmit {
+  font-size: .9em;
+  cursor: pointer;
+  padding: 1px 6px;
+  border: none;
+  color: #eee;
+  background: #1F4259;
+  float: right;
+  margin-left: 2px;
+}
+#searchbox form#search input {
+  font-size: .9em;
+  padding: 1px 2px;
+  color: #000;
+  background: #efefef;
+  border: 1px solid #333;
+  float: right;
+}
+#home #contentArea {
+  width: 920px;
+  padding: 19px;
+}
+#contentArea {
+  clear: both;
+  float: left;
+  padding: 20px 30px 40px 20px;
+  width: 908px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  background: #fff url(/images/photos/contentArea-bg.png) 50% 1px no-repeat;
+}
+#intro {
+  clear:both;
+}
+div#slider {
+  width: 920px;
+  height: 320px;
+  overflow: hidden;
+.ul {
+  width: 1840px;
+  margin-left: 0px;
+}
+#intro #slider li {
+  width: 920px;
+  height: 320px;
+  overflow: hidden;
+  text-align: center;
+}
+#footerContent
+#footerColumn
