@@ -29,22 +29,10 @@ font-weight: bold;
 color: #fff;
 text-transform: uppercase;
 }
-#header ul li.current {
-background: #67920D;
-border-color: #739e19;
+a {
+text-decoration:none;
 }
-#header ul li {
-  float: left;
-  margin-left: 4px;
-  text-transform: uppercase;
-  background: #1B3C52;
-  border-width: 1px 1px 0 1px;
-  border-color: #1c3e54;
-  border-style: solid;
-}
-#header ul li.current .navi-description {
-  color:#fff;
-}
+
 .navi-description {
 font-size: .7em;
 color: #eee;

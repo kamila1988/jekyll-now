@@ -1,0 +1,95 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset='utf-8'>
+  <title>My playlist</title>
+  <script>
+  /*
+  function addSongs() {
+  var song1=document.getElementById('song1');
+  var song2=document.getElementById('song2');
+  var song3=document.getElementById('song3');
+
+  song1.innerHTML="Oops, I did it again, by Britney Spears";
+  song2.innerHTML="I'll always love you, by Witney Houston";
+  song3.innerHTML="Black&white, by Michael Jackson";
+}
+window.onload=addSongs;
+*/
+function way() {
+  var word=document.getElementById("song1");
+  word.innerHTML="Be happy";
+  word.setAttribute("style", "color: blue")
+}
+</script>
+</head>
+<body>
+  <h1>My awesome playlist</h1>
+  <ul id="playlist">
+    <li id="song1"></li>
+    <li id="song2"></li>
+    <li id="song3"></li>
+  </ul>
+  <button onclick="way()">Go there</button>
+  </body>
+  </html>
+
+
+
+  <!doctype html>
+  <html lang="en">
+  <head>
+    <meta charset='utf-8'>
+    <title>Planets</title>
+    <style>
+    .redtext {color:red;}
+    </style>
+    <script>
+    /*
+    function init() {
+      var planet=document.getElementById('greenplanet');
+      planet.innerHTML='Red Alert: hit by phaser fire!';
+      planet.setAttribute('class', 'redtext');
+    }
+     window.onload=init;
+     */
+     </script>
+   </head>
+   <body>
+     <h1>Green Planet</h1>
+     <p id='greenplanet'>All is well</p>
+     <h1>Red Planet</h1>
+       <p id='redplanet'>Nothing to report</p>
+       <h1>Blue Planet</h1>
+       <p id='blueplanet'>All systems A-OK</p>
+     </body>
+  </html>
+
+
+  <!doctype html>
+  <html lang="en">
+  <head>
+    <meta charset='utf-8'>
+    <title>My playlist</title>
+    <script>
+    function validate(phoneNumber) {
+      if (phoneNumber.length !=8) {
+        return false;
+      }
+      for (var i=0; i<phoneNumber.length; i++) {
+        if (i===3) {
+          if (phoneNumber.charAt(i) !== '-') {
+            return false;
+          }
+        } else if(isNaN(phoneNumber.charAt(i))) {
+          return false;
+        }
+      }
+      return true;
+    }
+    </script>
+    </head>
+    </body>
+ </html>
