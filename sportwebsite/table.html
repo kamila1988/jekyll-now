@@ -18,20 +18,42 @@
        <th>    </th>
     </tr>
     <tr>
-      <
+      <th>   </th>
+      <th>    </th>
     </tr>
+    <tr class='parametr'>
+      <th>    </th>
+      <th>    </th>
+   </tr>
+   <tr>
+     <th>   </th>
+     <th>    </th>
+   </tr>
+   <tr class='exercise'>
+     <th>Ноги и ягодицы</th>
+     <th>    </th>
+  </tr>
    </table>
    <script>
+
+   
+   var zhim = [14, 0, 20, 13];
      var tr=document.getElementsByClassName("dates")[0];
-     for (var i = 1; i <= 31; i++) {
+     for (var i = 10; i <= 31; i+6) {
       var td2 = document.createElement("td");
       td2.innerHTML = i;
       tr.appendChild(td2);
      }
-     
-     
-     
+     var tr=document.getElementsByClassName("parametr")[0];
+     for (var i = 10; i <=31 ; i+6) {
+      var td2 = document.createElement("td");
+      td2.innerHTML = "кл-во/кг";
+      tr.appendChild(td2);
+    }
+    var tr=document.getElementsByClassName("exercise")[0];
+    for (var i = 10; i <=31 ; i+6) {
+     var td2 = document.createElement("td");
+     td2.innerHTML = zhim[i-1];
+     tr.appendChild(td2);
+    }
    </script>
-  
-
-
